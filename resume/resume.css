@@ -1,0 +1,269 @@
+html, body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    -webkit-print-color-adjust: exact;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.a4-container {
+    width: 2480px;
+    margin: 60px 60px 60px 60px;
+    background: #FFFFFF;
+    position: relative;
+    display: table;
+    line-height: 1;
+}
+
+.grid-content {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.height-max {
+	height: 2716px!important;
+}
+
+.a4-eve-control {
+    width: 2480px;
+	height: auto;
+    display: table;
+}
+
+.color0-eve {
+    color: #24A0ED!important;
+}
+
+.color6-eve {
+    color: #FFFFFF!important;
+}
+
+.bg-color0-eve {
+    border-color: #24A0ED!important;
+}
+
+.br-color0-eve {
+    border-color: #24A0ED!important;
+}
+
+.eve-1-3 {
+    width: 660px;
+    max-width: 660px;
+    min-width: 660px;
+    min-height: 3508px;
+    vertical-align: top;
+    display: table-cell;
+    padding: 60px 80px 0px 120px;
+    background-color: #404040;
+    border-right: 8px solid #24A0ED;
+}
+
+.eve-2-3 {
+    width: 1580px;
+    max-width: 1580px;
+    display: table-cell;
+    padding: 60px 120px 0px 90px;
+}
+
+.eve-1-3-first {
+    padding: 120px 80px 0px 120px;
+    height: auto;
+    margin-top: 0px;
+    width: 660px;
+    max-width: 660px;
+    position: relative;
+}
+
+.eve-2-3-first {
+    width: 1580px;
+    max-width: 1580px;
+    padding: 120px 90px 0px 120px;
+    position: relative;
+    min-height: 600px;
+}
+
+.header-eve {
+    position: relative;
+    width: 2480px;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.header-eve .header-name-container {
+    position: relative;
+    left: 0;
+    right: 0;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 140px;
+    width: auto;
+    max-width: 1800px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #404040;
+    padding: 60px 30px;
+    margin: 0px auto 0px auto;
+}
+
+.header-eve h4 {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 54px;
+    width: auto;
+    color: #595959;
+    letter-spacing: 6.75px;
+    bottom: 0;
+    right: 0;
+    padding: 40px 15px 0px 15px;
+}
+
+.header-element {
+    width: 2480px;
+    height: 8px;
+    background: #24A0ED;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px auto -30px auto;
+    z-index: 3;
+}
+
+.eve {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 80px;
+}
+
+.eve-icon {
+    width: 64px;
+    height: 64px;
+    float: left;
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+}
+
+.eve ul li {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 42px;
+    min-width: 666px;
+    height: auto;
+    float: left;
+    margin-bottom: 60px;
+    min-height: 54px;
+    margin: 0px 0px 15px 0px;
+}
+
+.eve ul li p {
+    width: auto;
+    height: auto;
+    line-height: 67.2px;
+    float: right;
+    padding-right: 90px;
+    text-align: right;
+    word-break: break-word;
+}
+
+.eve-title {
+    position: relative;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 54px;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    position: relative;
+    letter-spacing: 16.2px;
+    margin-bottom: 60px;
+    padding-right: 0px;
+}
+
+.eve-title-element {
+    width: 100%;
+    height: 8px;
+    background: #24A0ED;
+    position: absolute;
+    right: 0;
+    left: 0 top: 0;
+    margin: 20px auto 0px auto;
+}
+
+.eve-sub-title {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+    letter-spacing: 2.94px;
+    line-height: 63px;
+}
+
+.eve-altsub-title {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 30px;
+    position: relative;
+    font-style: italic;
+    line-height: 63px;
+}
+
+.eve-para {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 42px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 60px;
+    position: relative;
+    line-height: 63px;
+}
+
+.eve-para ul {
+    list-style-type: disc;
+}
+
+.eve-para ul li {
+    float: none;
+    padding-left: 60px;
+}
+
+#email-break-all {
+    word-break: break-all;
+}
