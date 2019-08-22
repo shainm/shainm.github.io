@@ -1,0 +1,9 @@
+.sidebar, .openbtn {
+	margin: 0;
+	box-shadow: 0;
+	display: none;
+}
+
+.content {
+	margin: 0 !important;
+}

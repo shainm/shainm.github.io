@@ -16,13 +16,6 @@ page {
 	padding: .1in;
 }
 
-@media print {
-  body, page {
-    margin: 0;
-    box-shadow: 0;
-  }
-}
-
 div, p {
     margin: 0;
 }
