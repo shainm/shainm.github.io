@@ -1,0 +1,129 @@
+html {
+    -webkit-print-color-adjust: exact;
+}
+
+body {
+    background: rgb(204,204,204);
+}
+
+page {
+	background: white;
+	display: block;
+	width: 8.5in;
+	height: 11in;
+	margin: auto;
+	box-shadow: 0 0 0.1in rgba(0,0,0,0.5);
+	padding: .1in;
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+div, p {
+    margin: 0;
+}
+
+.cell1 { 
+	grid-area: resume-sidebar-header;
+	background-color: #404040;
+	border-left: 0;
+	border-top: 0;
+	border-color: #24A0ED;
+	border-style: solid;
+	/* font */
+	color: white;
+	font-size: 10pt;
+	text-align: right;
+}
+
+.cell2 { 
+	grid-area: header; 
+	background-color: white;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-color: #24A0ED;
+	border-style: solid;
+	/* font */
+	text-align: center;
+}
+
+.cell3 { 
+	grid-area: sidebar; 
+	background-color: #404040;
+	padding: .1in;
+	border-left: 0;
+	border-bottom: 0;
+	border-top: 0;
+	border-color: #24A0ED;
+	border-style: solid;
+	/* font */
+	color: white;
+	text-align: right;
+	font-size: 10pt;
+}
+
+.cell3 h2 {
+	color: #24A0ED;
+}
+
+.cell4 { 
+	grid-area: body; 
+	background-color: white;
+	padding: 0in .5in;
+}
+
+.resume-grid {
+	display: grid;
+	grid-template-areas:
+		"resume-sidebar-header header"
+		"sidebar        body";
+	grid-template-columns: 2fr 5fr;
+	grid-template-rows: auto 1fr;
+	height: 100%;
+}
+
+/* cell 1 rules */
+.cell1 ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    float: right;
+    position: relative;
+    right: 0;
+    margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* cell 2 rules */
+.header-block {
+	background-color: #404040;
+	display: inline-block;
+	padding: 0 1in;
+	margin: 0;
+	/* font */
+	color: white;
+	text-transform: uppercase;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+/* cell 3 rules */
+.cell3 p {
+	padding: 10pt 0pt;
+}
+
+/* cell 4 rules */
+.blue-div {
+	background-color: #24A0ED;
+	text-align:center;
+	height: 3px;
+}

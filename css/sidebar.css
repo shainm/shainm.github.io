@@ -1,0 +1,48 @@
+#openbtn {
+	height: 100%;
+	width: 25px;
+	z-index: 1;
+	position: fixed;
+	background-color: #404040;
+	color: white;
+	border: 0;
+	outline: none;
+	transition: 0.5s;
+}
+
+#sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #404040;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 25px;
+}
+
+#sidebar a {
+	  display: block;
+	  color: #cccccc;
+	  padding: 16px;
+	  text-decoration: none;
+	  font-weight: bold;
+	  text-align: center;
+	  font-size: 15pt;
+}
+ 
+#sidebar a.active {
+	  color: #24A0ED;
+}
+
+#sidebar a:hover:not(.active) {
+	  color: white;
+}
+
+#content {
+	transition: 0.5s;
+	padding: 25px;
+	margin-left: 25px;
+}

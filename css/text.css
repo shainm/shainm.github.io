@@ -1,0 +1,57 @@
+body {
+  	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.blue {
+	color: #24A0ED;
+}
+
+.grey, .gray {
+	color: #404040;
+}
+
+h1 {
+    color: #404040;
+    letter-spacing: 1px;
+	font-size: 11pt;
+    bottom: 0;
+    right: 0;
+    margin: 5px 0;
+	font-weight: normal;
+}
+
+h2 {
+    letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 11pt;
+    bottom: 0;
+    right: 0;
+    margin: 5px 0;
+	text-align: center;
+	padding-top: 11pt;
+}
+
+h3 {
+    letter-spacing: 0.5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 8pt;
+    bottom: 0;
+    right: 0;
+    margin: 10px 0;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 8pt;
+    bottom: 0;
+    right: 0;
+    margin: 10px 0;
+}
+
+li {
+	margin: 10px 0;
+}

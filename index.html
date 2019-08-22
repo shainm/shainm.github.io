@@ -2,21 +2,24 @@
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-		<link href="smayville.css" type "text/css" rel="stylesheet">
+		<link href="css/smayville.css" type "text/css" rel="stylesheet">
+		<link href="css/sidebar.css" type "text/css" rel="stylesheet">
+		<script src="js/sidebar.js" type="text/javascript"></script>
 	</head>
 		<body>
-		<div class="sidebar">
+		<!-- sidebar -->
+		<div id="sidebar">
 			<a class ="active" href="/">Home</a>
-			<a class ="resume/" href="resume/">Resume</a>
-		</div>
-		<div class="content">
-			<div class="center">
-				<div class="crop">
-					<img src="images/shain.jpg" alt="Shain Mayville">
-				</div>
-				<div>
-					<h1> Shain Mayville </h1>
-				</div>
+			<a href="resume/">Resume</a>
+		</div> 
+		<button id="openbtn" onclick="openNav()">☰</button>
+		<!-- content -->
+		<div id="content" class="center">
+			<div class="crop">
+				<img src="images/shain.jpg" alt="Shain Mayville">
+			</div>
+			<div>
+				<h1> Shain Mayville </h1>
 			</div>
 		</div>
 	</body>

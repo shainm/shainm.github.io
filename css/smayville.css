@@ -1,0 +1,31 @@
+html {
+    -webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0;
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.center {
+	display: inline-block;
+	width: 100%;
+}
+
+.center h1 {
+	text-align:center;
+}
+
+.crop {
+	width: 231px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 25px;
+	margin: auto;
+}
+
+.crop img {
+	margin: -148px 0 0 -200px;
+	overflow: hidden;
+	text-align:center;
+}
