@@ -1,5 +1,3 @@
-
-
 function openNav() {
 	document.getElementById("sidebar").style.width = "150px";
 	document.getElementById("content").style.marginLeft = "175px";

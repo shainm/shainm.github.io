@@ -1,9 +1,15 @@
-.sidebar, .openbtn {
-	margin: 0;
-	box-shadow: 0;
-	display: none;
+page {
+	box-shadow: none !important;
+}
+
+#sidebar, #openbtn {
+	margin: 0 !important;
+	display: none !important;
 }
 
 .content {
 	margin: 0 !important;
+	width: 8.5in !important;
+	height: 11in !important;
+	padding: 0 !important;
 }

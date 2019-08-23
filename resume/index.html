@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Resume</title>
+		<link rel="shortcut icon" href="../images/favicon.ico" />
+		
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"/>
+		
 		<link href="../css/resume.css" type "text/css" rel="stylesheet"/>
 		<link href="../css/text.css" type "text/css" rel="stylesheet"/>
 		<link href="../css/smayville.css" type "text/css" rel="stylesheet"/>
 		<link href="../css/sidebar.css" type "text/css" rel="stylesheet" media="screen"/>
 		<link href="../css/print.css" type="text/css" rel="stylesheet" media="print"/>
+		
 		<script src="../js/sidebar.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<!-- sidebar -->
-		<div class="sidebar" id="sidebar">
+		<div id="sidebar">
 			<a href="/">Home</a>
-			<a class ="active" href="resume/">Resume</a>
+			<a href="resume/" class ="active">Resume</a>
 		</div> 
-		<button class="openbtn" id="openbtn" onclick="openNav()">☰</button>
-		<div class="content" id="content">
-			<!-- Resume -->
+		<button id="openbtn" onmouseover="openNav()" onclick="openNav()">☰</button>
+		<!-- Resume -->
+		<div class="content" onmouseover="closeNav()" id="content">
 			<page>
 				<div class="resume-grid">
 					<!--Top Info-->

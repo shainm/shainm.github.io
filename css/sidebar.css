@@ -1,4 +1,4 @@
-.openbtn {
+#openbtn {
 	height: 100%;
 	width: 25px;
 	z-index: 1;
@@ -8,11 +8,12 @@
 	border: 0;
 	outline: none;
 	transition: 0.5s;
+	margin-left: 0px;
 }
 
-.sidebar {
+#sidebar {
 	height: 100%;
-	width: 0;
+	width: 0px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -23,7 +24,7 @@
 	padding-top: 25px;
 }
 
-.sidebar a {
+#sidebar a {
 	  display: block;
 	  color: #cccccc;
 	  padding: 16px;
@@ -33,11 +34,11 @@
 	  font-size: 15pt;
 }
  
-.sidebar a.active {
+#sidebar a.active {
 	  color: #24A0ED;
 }
 
-.sidebar a:hover:not(.active) {
+#sidebar a:hover:not(.active) {
 	  color: white;
 }
 
