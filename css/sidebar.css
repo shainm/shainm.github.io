@@ -1,6 +1,6 @@
 #openbtn {
 	height: 100%;
-	width: 25px;
+	width: 50px;
 	z-index: 1;
 	position: fixed;
 	background-color: #404040;
@@ -21,7 +21,7 @@
 	background-color: #404040;
 	overflow-x: hidden;
 	transition: 0.5s;
-	padding-top: 25px;
+	padding-top: 50px;
 }
 
 #sidebar a {
@@ -44,6 +44,6 @@
 
 #content {
 	transition: 0.5s;
-	padding: 25px;
-	margin-left: 25px;
+	padding: 50px;
+	margin-left: 50px;
 }
