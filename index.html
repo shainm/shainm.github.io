@@ -4,24 +4,90 @@
 		<title>Shain - Home</title>
 		<link rel="shortcut icon" href="images/favicon.ico" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-		<link href="css/smayville.css" type "text/css" rel="stylesheet">
-		<link href="css/sidebar.css" type "text/css" rel="stylesheet">
-		<script src="js/sidebar.js" type="text/javascript"></script>
+		<link href="./css/smayville.css" type "text/css" rel="stylesheet">
+		<link href="./css/header.css" type "text/css" rel="stylesheet">
+		<link href="./css/text.css" type "text/css" rel="stylesheet">
 	</head>
 		<body>
-		<!-- sidebar -->
-		<div id="sidebar">
-			<a href="/" class ="active">Home</a>
-			<a href="resume/">Resume</a>
-		</div> 
-		<button id="openbtn" onmouseover="openNav()" onclick="openNav()">☰</button>
-		<!-- Resume -->
-		<div class="content" onmouseover="closeNav()" id="content">
-			<div class="crop">
-				<img src="images/shain.jpg" alt="Shain Mayville">
+		<!-- header -->
+		<div class="header">
+			<div class="header-content">
+				<div class="header-title">
+					<h1>Shain Mayville</h1>
+					<div class="blue-div">
+						<h2>Software Engineering Graduate</h2>
+					</div>
+				</div>
+			</div>
+			<div class="navbar">
+					<a href="./" class="active">Home</a>
+					<a href="./resume">Resume</a>
+				</div>
+			<img class="headshot" src="./images/headshot.png" alt="Shain Mayville"/>
+		</div>
+		<!-- Content -->
+		<div class="content" id="content">
+			<div class="center">
+				<div class="section">
+					<div class="title">
+						<h2>Personal Experience</h2>
+					</div>
+				</div>
+				<div class="section">
+					<div>
+						<img src="images/uwindsor.png" alt="University of Windsor"/>
+						<h4>University of Windsor Graduate</h4>
+						<p>Graduated in May 2019 from the University of Windsor studying software engineering.</p>
+					</div>
+					<div>
+						<img src="images/applasman.png" alt="AP Plasman"/>
+						<h4>Assembly Worker</h4>
+						<p>Assembly Worker at AP Plasman Since June 2016 to present.</p>
+					</div>
+				</div>
 			</div>
 			<div class="center">
-				<h1> Shain Mayville </h1>
+				<div class="section">
+					<div class="title">
+						<h2>Projects</h2>
+					</div>
+				</div>
+				<div class="section">
+					<div>
+						<img src="images/face.png" alt="Face Tracking"/>
+						<h4>Facial Tracking Project</h4>
+						<p>Final project at the University of Windsor. Solo project in order to learn Python, C++ and OpenCV.</p>
+					</div>
+					<div>
+						<img src="images/favicon.png" alt="smayville.com"/>
+						<h4>Personal Website</h4>
+						<p>As a personal project I have created this website. Everything is hand-written rather than generated from a 3rd-party.</p>
+					</div>
+				</div>
+			</div>
+			<div class="center">
+				<div class="section">
+					<div class="title">
+						<h2>Interests</h2>
+					</div>
+				</div>
+				<div class="section">
+					<div>
+						<img src="images/tools.png" alt="PC Building"/>
+						<h3>PC Building</h3>
+						<p>I enjoyed building my own computer, and spending the time to maintain it.</p>
+					</div>					
+					<div>
+						<img src="images/programming.png" alt="Programming"/>
+						<h3>Programming</h3>
+						<p>I am interested in taking on programming projects both as a hobby and a career.</p>
+					</div>
+					<div>
+						<img src="images/graphic_design.png" alt="Graphic Design"/>
+						<h3>Graphic Design</h3>
+						<p>Designing graphics for websites or programs helps bring them to life and gives a professional appeal which makes it a very enjoyable proccess to incorparate into my programs.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>

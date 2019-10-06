@@ -2,18 +2,11 @@ html {
     -webkit-print-color-adjust: exact;
 }
 
-body {
-    background: rgb(204,204,204);
-}
-
-page {
-	background: white;
-	display: block;
-	width: 8.5in;
-	height: 11in;
-	margin: auto;
-	box-shadow: 0 0 0.1in rgba(0,0,0,0.5);
+.page {
+	width: 8.5in!important;
+	height: 11in!important;
 	padding: .1in;
+	margin: auto;
 }
 
 div, p {
@@ -28,8 +21,10 @@ div, p {
 	border-color: #24A0ED;
 	border-style: solid;
 	/* font */
-	color: white;
-	font-size: 10pt;
+	text-align: right;
+}
+
+.cell1 li {
 	text-align: right;
 }
 
@@ -55,13 +50,7 @@ div, p {
 	border-color: #24A0ED;
 	border-style: solid;
 	/* font */
-	color: white;
 	text-align: right;
-	font-size: 10pt;
-}
-
-.cell3 h2 {
-	color: #24A0ED;
 }
 
 .cell4 { 
@@ -87,8 +76,8 @@ div, p {
 }
 
 .icon {
-    width: 18px;
-    height: 18px;
+    width: 18px!important;
+    height: 18px!important;
     float: right;
     position: relative;
     right: 0;
@@ -102,21 +91,9 @@ div, p {
 	display: inline-block;
 	padding: 0 1in;
 	margin: 0;
-	/* font */
-	color: white;
-	text-transform: uppercase;
-	font-size: 24pt;
-	font-weight: bold;
 }
 
 /* cell 3 rules */
 .cell3 p {
-	padding: 10pt 0pt;
-}
-
-/* cell 4 rules */
-.blue-div {
-	background-color: #24A0ED;
-	text-align:center;
-	height: 3px;
+	padding: 10px 0px;
 }

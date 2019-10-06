@@ -7,98 +7,108 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"/>
 		
 		<link href="../css/resume.css" type "text/css" rel="stylesheet"/>
-		<link href="../css/text.css" type "text/css" rel="stylesheet"/>
 		<link href="../css/smayville.css" type "text/css" rel="stylesheet"/>
-		<link href="../css/sidebar.css" type "text/css" rel="stylesheet" media="screen"/>
+		<link href="../css/header.css" type "text/css" rel="stylesheet"/>
+		<link href="../css/text.css" type "text/css" rel="stylesheet"/>
 		<link href="../css/print.css" type="text/css" rel="stylesheet" media="print"/>
-		
-		<script src="../js/sidebar.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<!-- sidebar -->
-		<div id="sidebar">
-			<a href="/">Home</a>
-			<a href="resume/" class ="active">Resume</a>
-		</div> 
-		<button id="openbtn" onmouseover="openNav()" onclick="openNav()">☰</button>
-		<!-- Resume -->
-		<div class="content" onmouseover="closeNav()" id="content">
-			<page>
-				<div class="resume-grid">
-					<!--Top Info-->
-					<div class="cell1">
-						<ul>
-							<li>
-								<img src="../images/mail.png" class="icon">
-								<p id="email-break-all">shain0515@gmail.com</p>
-							</li>
-							<li>
-								<img src="../images/phone.png" class="icon">
-								<p>(519) 566-9805</p>
-							</li>
-							<li>
-								<img src="../images/location.png" class="icon">
-								<p>LaSalle, ON, Canada</p>
-							</li>
-							<li>
-								<img src="../images/internet.png" class="icon">
-								<p>smayville.com</p>
-							</li>
-						</ul>
-					</div>
-					<!--Header-->
-					<div class="cell2">
-						<div class="header-block">
-							<p>Shain</p>
-							<p class="blue">Mayville</p>
-						</div>
-						<h1>Software Engineer</h1>
-					</div>
-					<!--Sidebar-->
-					<div class="cell3">
-						<h2>Skills</h2>
-						<p>Software Verification and Testing</p>
-						<p>Database Systems</p>
-						<p>Graphical tools such as OpenGL</p>
-						<p>Basic Understanding of Artificial Intelligence</p>
-						<p>Computer Networks/Protocols</p>
-						<h2>Licenses and Certifications</h2>
-						<p>Cisco Academy - Packet Tracer</p>
-						<h2>Projects</h2>
-						<p>Facial Detection and Tracking</p>
-						<p>smayville.com</p>
-					</div>
-					<!--Body-->
-					<div class="cell4">
-						<h2>Professional Experience</h2>
-						<div class="blue-div"></div>
-						<h3>Assembly Worker</h3>
-						<h4>AP Plasman, LaSalle, ON / Jun 2016 – Present</h4>
-						<ul>
-							<li>Assemble parts in an efficient and timely matter while also assuring quality of the parts produced and exceeding efficiency.</li>
-							<li>Work well in a group as well as on my own. Comfortable following instructions or taking charge of a situation when the opportunity arises.</li>
-							<li>Learns new jobs quickly in order to be a valuable member of any team.</li>
-						</ul>
-						<h2>Education</h2>
-						<div class="blue-div"></div>
-						<h3>University of Windsor</h3>
-						<h4>B.S. Honours Computer Science With Software Engineering Option (May 2019)</h4>
-						<ul>
-							<li>Programming Languages - Python, C, C++, C#, Java, HTML, CSS, JavaScript, Bash, SQL</li>
-							<li>Operating Systems - Windows, Linux</li>
-						</ul>
-						<h2>Characteristics</h2>
-						<div class="blue-div"></div>
-						<ul>
-							<li><b>Communication</b> - Able to communicate well in a team, and help solve problems.</li>
-							<li><b>Focused/Hard Working</b> - Complete projects in a timely manner.</li>
-							<li><b>Self-modivated</b> - Determined to find a solution to a problem. Willing to look for help when appropriate.</li>
-							<li><b>Time Management</b> - Able to jump from one job to another with ease.</li>
-							<li><b>Creative</b> - Tackle problems from different points of view in order to find the best solution.</li>
-						</ul>
+		<!-- header -->
+		<div class="header">
+			<div class="header-content">
+				<div class="header-title">
+					<h1>Shain Mayville</h1>
+					<div class="blue-div">
+						<h2>Software Engineering Graduate</h2>
 					</div>
 				</div>
-			</page>
+			</div>
+			<div class="navbar">
+					<a  href="../">Home</a>
+					<a href="./" class="active">Resume</a>
+				</div>
+			<img class="headshot" src="../images/headshot.png" alt="Shain Mayville"/>
+		</div>
+		<!-- Resume -->
+		<div class="content" id="content">
+				<div class="page center">
+					<div class="resume-grid">
+						<!--Top Info-->
+						<div class="cell1 white">
+							<ul>
+								<li>
+									<img src="../images/mail.png" class="icon">
+									shain0515@gmail.com
+								</li>
+								<li>
+									<img src="../images/phone.png" class="icon">
+									(519) 566-9805
+								</li>
+								<li>
+									<img src="../images/location.png" class="icon">
+									LaSalle, ON, Canada
+								</li>
+								<li>
+									<img src="../images/internet.png" class="icon">
+									smayville.com
+								</li>
+							</ul>
+						</div>
+						<!--Header-->
+						<div class="cell2">
+							<div class="header-block">
+								<h1 class="white">Shain</h1>
+								<h1 class="blue">Mayville</h1>
+							</div>
+							<h3>Software Engineering Graduate</h3>
+						</div>
+						<!--Sidebar-->
+						<div class="cell3 white">
+							<h4 class="blue">Skills</h4>
+							<p>Software Verification and Testing</p>
+							<p>Database Systems</p>
+							<p>Graphical tools such as OpenGL</p>
+							<p>Basic Understanding of Artificial Intelligence</p>
+							<p>Computer Networks/Protocols</p>
+							
+							<h4 class="blue">Licenses and Certifications</h4>
+							<p>Cisco Academy - Packet Tracer</p>
+							
+							<h4 class="blue">Projects</h4>
+							<p>Facial Detection and Tracking</p>
+							<p>smayville.com</p>
+						</div>
+						<!--Body-->
+						<div class="cell4">
+							<h4>Professional Experience</h4>
+							<div class="blue-div"></div>
+							<h5>Assembly Worker</h5>
+							<h6>AP Plasman, LaSalle, ON / Jun 2016 – Present</h6>
+							<ul>
+								<li>Assemble parts in an efficient and timely matter while also assuring quality of the parts produced and exceeding efficiency.</li>
+								<li>Work well in a group as well as on my own. Comfortable following instructions or taking charge of a situation when the opportunity arises.</li>
+								<li>Learns new jobs quickly in order to be a valuable member of any team.</li>
+							</ul>
+							<h4>Education</h4>
+							<div class="blue-div"></div>
+							<h5>University of Windsor</h5>
+							<h6>B.S. Honours Computer Science With Software Engineering Option (May 2019)</h6>
+							<ul>
+								<li>Programming Languages - Python, C, C++, C#, Java, HTML, CSS, JavaScript, Bash, SQL</li>
+								<li>Operating Systems - Windows, Linux</li>
+							</ul>
+							<h4>Characteristics</h4>
+							<div class="blue-div"></div>
+							<ul>
+								<li><b>Communication</b> - Able to communicate well in a team, and help solve problems.</li>
+								<li><b>Focused/Hard Working</b> - Complete projects in a timely manner.</li>
+								<li><b>Self-modivated</b> - Determined to find a solution to a problem. Willing to look for help when appropriate.</li>
+								<li><b>Time Management</b> - Able to jump from one job to another with ease.</li>
+								<li><b>Creative</b> - Tackle problems from different points of view in order to find the best solution.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 		</div>
 	</body>
 </html>

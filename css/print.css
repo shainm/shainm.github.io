@@ -2,14 +2,12 @@ page {
 	box-shadow: none !important;
 }
 
-#sidebar, #openbtn {
+.header {
 	margin: 0 !important;
 	display: none !important;
 }
 
-.content {
+.content, .center {
 	margin: 0 !important;
-	width: 8.5in !important;
-	height: 11in !important;
-	padding: 0 !important;
+	box-shadow: none !important;
 }

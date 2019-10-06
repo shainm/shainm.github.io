@@ -1,57 +1,66 @@
+/* Default font for website */
 body {
   	font-family: "Open Sans", Helvetica, sans-serif;
-	font-size: 12px;
+	color: #404040;
+}
+
+.white {
+	color: #fff;
 }
 
 .blue {
 	color: #24A0ED;
 }
 
-.grey, .gray {
-	color: #404040;
-}
-
 h1 {
-    color: #404040;
-    letter-spacing: 1px;
-	font-size: 11pt;
-    bottom: 0;
-    right: 0;
-    margin: 5px 0;
-	font-weight: normal;
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: .1em;
 }
 
 h2 {
-    letter-spacing: 1.5px;
+	font-size: 1em;
+	font-weight: bold;
 	text-transform: uppercase;
-	font-weight: normal;
-	font-size: 11pt;
-    bottom: 0;
-    right: 0;
-    margin: 5px 0;
 	text-align: center;
-	padding-top: 11pt;
+    margin: 0;
 }
 
 h3 {
-    letter-spacing: 0.5px;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 8pt;
-    bottom: 0;
-    right: 0;
-    margin: 10px 0;
+    font-size: .9em;
+    font-weight: normal;
+    letter-spacing: .05em;
 }
 
 h4 {
-	text-transform: uppercase;
+    font-size: .92em;
+    font-weight: normal;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin: 5px 0;
+    text-align: center;
+    padding-top: 1em;
+}
+
+h5, h6 {
+    font-size: .65em;
+    font-weight: bold;
+	letter-spacing: .05em;
+    text-transform: uppercase;
+	text-align: left;
+	margin: 1em;
+}
+
+h6 {
 	font-style: italic;
-	font-size: 8pt;
-    bottom: 0;
-    right: 0;
-    margin: 10px 0;
+}
+
+li, p {
+	font-size: .8em;
 }
 
 li {
-	margin: 10px 0;
+	margin: .8em 0;
+	text-align: left;
 }
