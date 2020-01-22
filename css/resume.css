@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 html {
     -webkit-print-color-adjust: exact;
 }
@@ -14,6 +16,8 @@ div, p {
 }
 
 .cell1 { 
+	-ms-grid-row: 1; 
+	-ms-grid-column: 1; 
 	grid-area: resume-sidebar-header;
 	background-color: #404040;
 	border-left: 0;
@@ -28,7 +32,9 @@ div, p {
 	text-align: right;
 }
 
-.cell2 { 
+.cell2 {
+	-ms-grid-row: 1;
+	-ms-grid-column: 2;
 	grid-area: header; 
 	background-color: white;
 	border-left: 0;
@@ -41,6 +47,8 @@ div, p {
 }
 
 .cell3 { 
+	-ms-grid-row: 2; 
+	-ms-grid-column: 1; 
 	grid-area: sidebar; 
 	background-color: #404040;
 	padding: .1in;
@@ -54,25 +62,33 @@ div, p {
 }
 
 .cell4 { 
+	-ms-grid-row: 2; 
+	-ms-grid-column: 2; 
 	grid-area: body; 
 	background-color: white;
 	padding: 0in .5in;
 }
 
 .resume-grid {
+	display: -ms-grid;
 	display: grid;
-	grid-template-areas:
+	        grid-template-areas:
 		"resume-sidebar-header header"
 		"sidebar        body";
+	-ms-grid-columns: 2fr 5fr;
 	grid-template-columns: 2fr 5fr;
+	-ms-grid-rows: auto 1fr;
 	grid-template-rows: auto 1fr;
 	height: 100%;
 }
 
 /* cell 1 rules */
 .cell1 ul {
+	-ms-grid-row: 1;
+	-ms-grid-column: 1;
 	list-style: none;
 	padding-left: 0;
+	grid-area: resume-sidebar-header;
 }
 
 .icon {
